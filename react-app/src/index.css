@@ -1,0 +1,199 @@
+*{
+  box-sizing: border-box;
+}
+
+/*STYLES FOR REACT FUNFACTS -- Uncomment to apply*/
+
+
+
+/* #container{
+  background-color: white;
+  background-image: url(./Images/Groupreact2.png);
+  background-repeat: no-repeat;
+  background-position: 100% 65%;
+  background-blend-mode: difference;
+  font-family: Sofia;
+  width:40%;
+  margin:10vw auto;
+  color:rgb(198, 160, 231);
+  padding:auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px;
+}
+
+#logo{
+  width:60px;
+  margin-right: 10%;
+}
+
+.logo-element{
+  display:flex;
+  align-items: center;
+}
+
+.logo-title, .list-items{
+  color:rgb(4, 220, 248);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:5%;
+}
+
+.gutter{
+  width:100%;
+  height:5%;
+  border:1px solid rgb(206, 205, 205);
+}
+
+#body{
+  display: grid;
+  justify-content: center;
+  margin: 10% auto;
+  padding:2%;
+}
+
+.list-items{
+  display:flex;
+  flex-wrap:wrap;
+  list-style: none;
+}
+
+ul > li::marker{
+  color:rgb(4, 220, 248);
+  font-size: 1.2rem;
+}
+
+#foot{
+  color:white;
+  background-color: rgb(206, 205, 205);
+  padding:2%;
+  border-radius:0 0px 10px 10px;
+  border: none;
+} */
+
+/*STYLES FOR DIGITAL BUSINESS CARD -- Uncomment to Apply*/
+
+#out-card{
+height: auto;
+width: 550px;
+background-color: #23252C;
+margin: 5vh auto;
+padding:44px 116px;
+font-family: Inter, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#in-card{
+  min-width:100%;
+  min-height:100%;
+  background-color:#F5F5F5;
+  border-radius: 10px;
+  padding: 0;
+  border: 0;
+}
+
+#cover-image{
+  width:318px;
+  height:318px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#name{
+  font-weight: 700;
+  font-size:25px;
+  line-height: 30.26px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 6.19px;
+  color: #2B283A;
+}
+
+#title{
+  font-weight: 400;
+  font-size:12.8px;
+  line-height: 14.49px;
+  margin-bottom: 8.81px;
+  margin-top: 0px;
+  text-align: center;
+  color: #F47D27;
+}
+
+#website{
+  font-weight: 400;
+  font-size:10.24px;
+  line-height: 15.36px;
+  margin-bottom: 14.81px;
+  margin-top: 0px;
+  text-align: center;
+  color:#4A4E74;
+}
+
+#contact-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#email-button{
+  background-color: #FFFFFF;
+  border:1px solid #D1D5DB;
+  margin: auto 17px auto 35px;
+  color:#374151;
+}
+
+#linkedin-button{
+  background-color: #297FE5;
+  border:1px solid transparent;
+  margin: auto 35px auto auto;
+  color: white;
+}
+
+#email-button, #linkedin-button{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap:8px;
+  width:115px;
+  height:34px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+#in-content{
+  margin:0px 35px;
+}
+
+.c-h{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color:#2B283A;
+  width:242.71px;
+  height: 21px;
+  margin-top: 25px;
+}
+
+.c-p{
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 15.36px;
+  color: #4A4E74;
+  width:247px;
+  height: 61px;
+  margin-top: -7px;
+}
+
+#footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding:19.5px 72px;
+  width:317px;
+  height:64px;
+  background-color: #D5D4D8;
+  border-radius: 0px 0px 10px 10px;
+}
